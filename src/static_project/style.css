@@ -1,0 +1,15 @@
+body{
+
+    background: #f8f8f8 !important;
+}
+
+
+.nav {
+    border-radius: 0% !important;
+    padding:10px 0 !important;
+    background-color: #4067df !important;
+}
+
+.mb-7{
+    margin-bottom: 7px;
+}
