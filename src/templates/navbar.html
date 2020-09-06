@@ -7,10 +7,13 @@
     <a href="/" class="item">
         Home
     </a>
-    <a href="profiles/myprofile" class="item">
+    <a href="{% url 'profiles:my-profile' %}" class="item">
         my profile
     </a>
-    <a href="posts/all" class="item">
+    <a href="{% url 'profiles:my-invites-view' %}" class="item">
+        my invites
+    </a>
+    <a href="{% url 'posts:posts-list' %}" class="item">
         all posts
     </a>
     {% endif %}
